@@ -42,7 +42,6 @@ test.describe.serial('Makemytrip Flow', () => {
         console.log(`Clicked on: ${text}`);
         break;
       }
-      await sharedPage.waitForTimeout(3000);
     }
   });
 //   test('Test_003: Enter place name', async ({ page }) => {
