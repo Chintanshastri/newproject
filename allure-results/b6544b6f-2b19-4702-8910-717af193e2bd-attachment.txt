@@ -1,0 +1,4 @@
+Total number of elements: 11
+Element 1: Flights
+Element 2: Hotels
+Clicked on: Hotels

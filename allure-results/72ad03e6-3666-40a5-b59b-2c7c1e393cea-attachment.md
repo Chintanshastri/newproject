@@ -1,0 +1,211 @@
+# Page snapshot
+
+```yaml
+- img "Make My Trip"
+- list:
+  - listitem:
+    - paragraph: List Your Property
+    - paragraph: Grow your business!
+  - listitem:
+    - paragraph: Introducing myBiz
+    - paragraph: Business Travel Solution
+  - listitem:
+    - paragraph: My Trips
+    - paragraph: Manage your bookings
+  - listitem:
+    - paragraph: Login or Create Account
+  - listitem: INR | English
+- navigation:
+  - list:
+    - listitem:
+      - link "Flights":
+        - /url: https://www.makemytrip.com/flights/
+    - listitem:
+      - link "Hotels":
+        - /url: https://www.makemytrip.com/hotels/
+    - listitem:
+      - link "Homestays & Villas":
+        - /url: https://www.makemytrip.com/homestays/
+    - listitem:
+      - link "Holiday Packages":
+        - /url: https://www.makemytrip.com/holidays-india/
+    - listitem:
+      - link "Trains":
+        - /url: https://www.makemytrip.com/railways/
+    - listitem:
+      - link "Buses":
+        - /url: https://www.makemytrip.com/bus-tickets/
+    - listitem:
+      - link "Cabs":
+        - /url: https://www.makemytrip.com/cabs/
+    - listitem:
+      - link "Tours & Attractions":
+        - /url: https://www.makemytrip.com/toursandattractions
+      - text: new
+    - listitem:
+      - link "Visa":
+        - /url: //visa.makemytrip.com/
+      - text: new
+    - listitem:
+      - link "Forex Card & Currency":
+        - /url: https://www.makemytrip.com/forex/
+    - listitem:
+      - link "Travel Insurance":
+        - /url: https://www.makemytrip.com/insurance/
+- img "credit-card"
+- heading "Save Extra 6% on Every MMT Booking" [level=2]
+- text: VIEW BENEFITS
+- list:
+  - listitem: One Way
+  - listitem: Round Trip
+  - listitem: Multi City
+- paragraph:
+  - text: Book
+  - link "International":
+    - /url: /international-flights/
+  - text: and
+  - link "Domestic Flights":
+    - /url: /flights/
+- text: From
+- textbox "From DEL, Delhi Airport India": Delhi
+- paragraph: DEL, Delhi Airport India
+- text: ⇌ To
+- textbox "To BLR, Bengaluru International Airport India": Bengaluru
+- paragraph: BLR, Bengaluru International Airport India
+- text: Departure
+- textbox "Departure 9 Jul'25 Wednesday": Tuesday, 8 Jul 2025
+- paragraph: 9 Jul'25
+- paragraph: Wednesday
+- text: Return
+- paragraph: Tap to add a return date for bigger discounts
+- text: Travellers & Class
+- textbox "Travellers & Class 1 Traveller Economy/Premium Economy": 0 Infant, 0 Adult, 1 Children
+- paragraph: 1 Traveller
+- paragraph: Economy/Premium Economy
+- paragraph: Search
+- main:
+  - main:
+    - text: Explore More
+    - list:
+      - listitem:
+        - img "Where2Go_image"
+        - paragraph: Where2Go
+      - listitem:
+        - img "How2Go_image"
+        - paragraph: How2Go new
+        - text: Find routes to anywhere
+      - listitem:
+        - img "<span class='latoBold blackText font14'>MakeMyTrip ICICI Credit Card</span>_image"
+        - paragraph: MakeMyTrip ICICI Credit Card
+        - text: Never-expiring rewards & big benefits
+      - listitem:
+        - img "MICE_image"
+        - paragraph: MICE
+        - text: Offsites, Events & Meetings
+      - listitem:
+        - img "Gift Cards_image"
+        - paragraph: Gift Cards
+    - heading "Offers" [level=2]
+    - list:
+      - listitem: All Offers
+      - listitem: Bank Offers
+      - listitem: Flights
+      - listitem: Hotels
+      - listitem: Holidays
+      - listitem: Trains
+      - listitem: Cabs
+      - listitem: Bus
+      - listitem: Forex
+    - text: View All
+    - button "Previous"
+    - paragraph: DOM HOTELS T&C's Apply
+    - paragraph: "UNMISSABLE DEALS ON LUXE HOTELS:"
+    - paragraph: Up to 30% OFF* on Premium Hotels in India for Your Next Vacay.
+    - text: BOOK NOW
+    - paragraph: HOLIDAYS T&C's Apply
+    - paragraph: Add a Cool Twist to Your Dubai Summer Holiday.
+    - paragraph: Book packages with indoor activities at Ski Dubai, AYA Universe & more.
+    - text: Book Now
+    - paragraph: DOM HOTELS T&C's Apply
+    - paragraph: Book Your Stay @ Up to 25% OFF*
+    - paragraph: For Your Amarnath Yatra.
+    - text: BOOK NOW
+    - paragraph: INTL FLIGHTS T&C's Apply
+    - paragraph: Up to 30% OFF* for
+    - paragraph: on international flights, stays, holiday packages & more
+    - text: Book Now
+    - paragraph: CABS T&C's Apply
+    - paragraph: Up to 15% OFF* on
+    - paragraph: Buses, Trains & Cabs for Your Sawan Pilgrimage.
+    - text: "Code: MMTDARSHAN BOOK NOW"
+    - paragraph: DOM HOTELS T&C's Apply
+    - paragraph: Enjoy Perfect Staycations with Taj!
+    - paragraph: Get Room Upgrades, 20% savings* on Spa, F&B and more!
+    - text: BOOK NOW
+    - button "Next"
+    - heading "Experience Flying with our Airline Partners" [level=2]
+    - img
+    - img
+    - paragraph: Flagship Hotel Stores on MakeMyTrip
+    - list: CGH Earth Experience Hotels Kingston Hotels
+    - button "Previous"
+    - paragraph: Check out our Indian Travel Trends Report. Our trends report 2023-24 is out now. Read on for top travel insights.
+    - paragraph: Finding Indian Food just got easier! Use newly launched filters to find Indian food during International travel
+    - paragraph: Planning to book an international flight? Check Travel Guidelines
+    - button "Next"
+    - heading "Download App Now !" [level=3]
+    - paragraph: Use code WELCOMEMMT and get FLAT 12% OFF* on your first domestic flight booking
+    - paragraph:
+      - img
+      - text: +91 —
+    - textbox "Enter Mobile number"
+    - button "GET APP LINK"
+    - img "QR Scanner"
+    - paragraph: Handpicked Collections for You
+    - button "Previous"
+    - text: Top 8
+    - paragraph: Stays in & Around Delhi for a Weekend Getaway
+    - text: Top 8
+    - paragraph: Stays in & Around Mumbai for a Weekend Getaway
+    - text: Top 9
+    - paragraph: Stays in & Around Bangalore for a Weekend Getaway
+    - text: Top 11
+    - paragraph: Beach Destinations
+    - text: Top 11
+    - paragraph: Weekend Getaways
+    - text: Top 11
+    - paragraph: Hill Stations
+    - button "Next"
+    - paragraph: Unlock Lesser-Known Wonders of India
+    - button "Previous"
+    - paragraph: Shimla's Best Kept Secret
+    - img "Shimla's Best Kept Secret"
+    - paragraph: Tamil Nadu's Charming Hill Town
+    - img "Tamil Nadu's Charming Hill Town"
+    - paragraph: Picturesque Gateway to Himalayas
+    - img "Picturesque Gateway to Himalayas"
+    - paragraph: Quaint Little Hill Station in Gujarat
+    - img "Quaint Little Hill Station in Gujarat"
+    - paragraph: A pleasant summer retreat and a snowy winter wonderland!
+    - img "A pleasant summer retreat and a snowy winter wonderland!"
+    - paragraph: Seaside Resort Village in West Bengal
+    - img "Seaside Resort Village in West Bengal"
+    - button "Next"
+- contentinfo:
+  - article:
+    - heading "Why MakeMyTrip?" [level=2]
+    - text: Established in 2000, MakeMyTrip has since positioned itself as one of the leading companies, providing great offers, competitive airfares, exclusive discounts, and a seamless online booking experience to many of its customers. The experience of booking your flight tickets, hotel stay, and holiday package through our desktop site or mobile app can be done with complete ease and no hassles at all. We also deliver amazing offers, such as Instant Discounts, Fare Calendar, MyRewardsProgram, MyWallet, and many more while updating them from time to time to better suit our customers’ evolving needs and demands.
+    - heading "Booking Flights with MakeMyTrip" [level=2]
+    - text: At MakeMyTrip, you can find the best of deals and cheap air tickets to any place you want by booking your tickets on our website or app. Being India’s leading website for hotel, flight, and holiday bookings, MakeMyTrip helps you book flight tickets that are affordable and customized to your convenience. With customer satisfaction being our ultimate goal, we also have a 24/7 dedicated helpline to cater to our customer’s queries and concerns. Serving over 5 million happy customers, we at MakeMyTrip are glad to fulfill the dreams of folks who need a quick and easy means to find air tickets. You can get a hold of the cheapest flight of your choice today while also enjoying the other available options for your travel needs with us.
+    - heading "Domestic Flights with MakeMyTrip" [level=2]
+    - text: MakeMyTrip is India's leading player for flight bookings. With the cheapest fare guarantee, experience great value at the lowest price. Instant notifications ensure current flight status, instant fare drops, amazing discounts, instant refunds and rebook options, price comparisons and many more interesting features.
+  - link:
+    - /url: https://www.instagram.com/makemytrip/
+  - link:
+    - /url: https://x.com/makemytrip
+  - link:
+    - /url: https://in.linkedin.com/company/makemytrip.com?open=outside
+  - link:
+    - /url: https://www.facebook.com/makemytrip/
+  - paragraph: © 2025 MAKEMYTRIP PVT. LTD.
+```

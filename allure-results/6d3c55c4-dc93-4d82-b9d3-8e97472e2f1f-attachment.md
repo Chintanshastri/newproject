@@ -1,0 +1,141 @@
+# Page snapshot
+
+```yaml
+- img "Make My Trip"
+- list:
+  - listitem:
+    - paragraph: List Your Property
+    - paragraph: Grow your business!
+  - listitem:
+    - paragraph: Introducing myBiz
+    - paragraph: Business Travel Solution
+  - listitem:
+    - paragraph: My Trips
+    - paragraph: Manage your bookings
+  - listitem:
+    - paragraph: Login or Create Account
+  - listitem: INR | English
+- navigation:
+  - list:
+    - listitem:
+      - link "Flights":
+        - /url: https://www.makemytrip.com/flights/
+    - listitem:
+      - link "Hotels":
+        - /url: https://www.makemytrip.com/hotels/
+    - listitem:
+      - link "Homestays & Villas":
+        - /url: https://www.makemytrip.com/homestays/
+    - listitem:
+      - link "Holiday Packages":
+        - /url: https://www.makemytrip.com/holidays-india/
+    - listitem:
+      - link "Trains":
+        - /url: https://www.makemytrip.com/railways/
+    - listitem:
+      - link "Buses":
+        - /url: https://www.makemytrip.com/bus-tickets/
+    - listitem:
+      - link "Cabs":
+        - /url: https://www.makemytrip.com/cabs/
+    - listitem:
+      - link "Visa":
+        - /url: //visa.makemytrip.com/
+      - text: new
+    - listitem:
+      - link "Forex Card & Currency":
+        - /url: https://www.makemytrip.com/forex/
+    - listitem:
+      - link "Travel Insurance":
+        - /url: https://www.makemytrip.com/insurance/
+- list:
+  - listitem: Personal Account
+  - listitem: MyBiz Account
+- textbox [disabled]
+- textbox
+- text: Email or Mobile Number
+- textbox "Enter email or mobile number"
+- button [disabled]
+- paragraph: Or Login/Signup With
+- paragraph: By proceeding, you agree to MakeMyTrip's Privacy Policy, User Agreement and T&Cs
+- img "credit-card"
+- heading "Save Extra 6% on Every MMT Booking" [level=2]
+- text: VIEW BENEFITS
+- main:
+  - main:
+    - heading "Offers" [level=2]
+    - list:
+      - listitem: All Offers
+      - listitem: Bank Offers
+      - listitem: Flights
+      - listitem: Hotels
+      - listitem: Holidays
+      - listitem: Trains
+      - listitem: Cabs
+      - listitem: Bus
+      - listitem: Forex
+    - text: View All
+    - button "Previous"
+    - paragraph: CABS T&C's Apply
+    - paragraph: Up to 15% OFF* on
+    - paragraph: Buses, Trains & Cabs for Your Sawan Pilgrimage.
+    - text: "Code: MMTDARSHAN BOOK NOW"
+    - paragraph: DOM HOTELS T&C's Apply
+    - paragraph: Enjoy Perfect Staycations with Taj!
+    - paragraph: Get Room Upgrades, 20% savings* on Spa, F&B and more!
+    - text: BOOK NOW
+    - paragraph: DOM HOTELS T&C's Apply
+    - paragraph: Grab Up to 40% OFF* on
+    - paragraph: TOP-RATED Apartments in India
+    - text: BOOK NOW
+    - paragraph: DOM HOTELS T&C's Apply
+    - paragraph: "A FERNTASTIC STAY AWAITS YOU:"
+    - paragraph: Up to 30% Off + Free Breakfast & 15% Off on Food & Soft Beverages!
+    - text: View Details
+    - paragraph: DOM HOTELS T&C's Apply
+    - paragraph: "FOR BIG SAVINGS ON BLISSFUL VACATIONS:"
+    - paragraph: Book Hotel Sonar Bangla @ Up to 35% OFF*
+    - text: BOOK NOW
+    - paragraph: HOLIDAYS T&C's Apply
+    - paragraph: "Free with Hong Kong Holiday Packages:"
+    - paragraph: 2-night Macau itinerary, Hong Kong Disneyland tickets for kids & more.
+    - text: Book Now
+    - button "Next"
+    - main:
+      - paragraph
+      - paragraph
+    - button "Previous"
+    - paragraph: Check out our Indian Travel Trends Report. Our trends report 2023-24 is out now. Read on for top travel insights.
+    - paragraph: Finding Indian Food just got easier! Use newly launched filters to find Indian food during International travel
+    - paragraph: Planning to book an international flight? Check Travel Guidelines
+    - button "Next"
+    - main
+    - main:
+      - link:
+        - /url: "#"
+        - paragraph
+        - paragraph
+        - paragraph
+        - paragraph
+        - paragraph
+        - paragraph
+    - main:
+      - link:
+        - /url: "#"
+        - paragraph
+        - paragraph
+        - paragraph
+        - paragraph
+        - paragraph
+        - paragraph
+- contentinfo:
+  - link:
+    - /url: https://www.instagram.com/makemytrip/
+  - link:
+    - /url: https://x.com/makemytrip
+  - link:
+    - /url: https://in.linkedin.com/company/makemytrip.com?open=outside
+  - link:
+    - /url: https://www.facebook.com/makemytrip/
+  - paragraph: © 2025 MAKEMYTRIP PVT. LTD.
+```

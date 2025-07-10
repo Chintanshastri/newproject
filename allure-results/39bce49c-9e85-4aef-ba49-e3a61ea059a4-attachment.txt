@@ -1,0 +1,13 @@
+open URL
+Total number of elements: 10
+Element 1: Flights
+Element 2: Hotels
+Element 3: Homestays & Villas
+Element 4: Holiday Packages
+Element 5: Trains
+Element 6: Buses
+Element 7: Cabs
+Element 8: Visa
+new
+Element 9: Forex Card & Currency
+Element 10: Travel Insurance

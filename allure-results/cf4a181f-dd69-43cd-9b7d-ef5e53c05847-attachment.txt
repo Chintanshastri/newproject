@@ -1,0 +1,12 @@
+open URL
+Element 1: Flights
+Hotels
+Homestays & Villas
+Holiday Packages
+Trains
+Buses
+Cabs
+Visa
+new
+Forex Card & Currency
+Travel Insurance

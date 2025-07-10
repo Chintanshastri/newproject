@@ -1,0 +1,6 @@
+open URL
+Total number of elements: 10
+Element 1: Flights
+Element 2: Hotels
+Element 3: Homestays & Villas
+Element 4: Holiday Packages

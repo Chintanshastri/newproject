@@ -1,0 +1,823 @@
+# Page snapshot
+
+```yaml
+- img "Make My Trip"
+- list:
+  - listitem:
+    - paragraph: List Your Property
+    - paragraph: Grow your business!
+  - listitem:
+    - paragraph: Introducing myBiz
+    - paragraph: Business Travel Solution
+  - listitem:
+    - paragraph: My Trips
+    - paragraph: Manage your bookings
+  - listitem:
+    - paragraph: Login or Create Account
+  - listitem: INR | English
+- navigation:
+  - list:
+    - listitem:
+      - link "Flights":
+        - /url: https://www.makemytrip.com/flights/
+    - listitem:
+      - link "Hotels":
+        - /url: https://www.makemytrip.com/hotels/
+    - listitem:
+      - link "Homestays & Villas":
+        - /url: https://www.makemytrip.com/homestays/
+    - listitem:
+      - link "Holiday Packages":
+        - /url: https://www.makemytrip.com/holidays-india/
+    - listitem:
+      - link "Trains":
+        - /url: https://www.makemytrip.com/railways/
+    - listitem:
+      - link "Buses":
+        - /url: https://www.makemytrip.com/bus-tickets/
+    - listitem:
+      - link "Cabs":
+        - /url: https://www.makemytrip.com/cabs/
+    - listitem:
+      - link "Tours & Attractions":
+        - /url: https://www.makemytrip.com/toursandattractions
+      - text: new
+    - listitem:
+      - link "Visa":
+        - /url: //visa.makemytrip.com/
+      - text: new
+    - listitem:
+      - link "Forex Card & Currency":
+        - /url: https://www.makemytrip.com/forex/
+    - listitem:
+      - link "Travel Insurance":
+        - /url: https://www.makemytrip.com/insurance/
+- list:
+  - listitem: Upto 4 Rooms
+  - listitem: Group Deals new
+- heading "Book Domestic and International Property Online. To list your property click here" [level=1]:
+  - text: Book
+  - link "Domestic":
+    - /url: /hotels/
+  - text: and
+  - link "International":
+    - /url: /hotels-international/
+  - text: Property Online. To list your property
+  - link "click here":
+    - /url: https://in.goibibo.com/newextranet/login?cmp=mmthomepage
+- text: City, Property name or Location
+- textbox "City, Property name or Location India": Goa
+- paragraph: India
+- text: Check-In
+- textbox "Check-In 9 Jul'25 Wednesday"
+- paragraph: 9 Jul'25
+- paragraph: Wednesday
+- paragraph: 9 Jul 25
+- text: "-"
+- paragraph: 10 Jul 25
+- button "Next Month"
+- grid:
+  - heading "July2025"
+  - rowgroup:
+    - row "Su Mo Tu We Th Fr Sa":
+      - columnheader "Su"
+      - columnheader "Mo"
+      - columnheader "Tu"
+      - columnheader "We"
+      - columnheader "Th"
+      - columnheader "Fr"
+      - columnheader "Sa"
+  - rowgroup:
+    - row "Sun Jun 29 2025 Mon Jun 30 2025 Tue Jul 01 2025 Wed Jul 02 2025 Thu Jul 03 2025 Fri Jul 04 2025 Sat Jul 05 2025":
+      - gridcell "Sun Jun 29 2025" [disabled]: "29"
+      - gridcell "Mon Jun 30 2025" [disabled]: "30"
+      - gridcell "Tue Jul 01 2025" [disabled]: "1"
+      - gridcell "Wed Jul 02 2025" [disabled]: "2"
+      - gridcell "Thu Jul 03 2025" [disabled]: "3"
+      - gridcell "Fri Jul 04 2025" [disabled]: "4"
+      - gridcell "Sat Jul 05 2025" [disabled]: "5"
+    - row "Sun Jul 06 2025 Mon Jul 07 2025 Tue Jul 08 2025 Wed Jul 09 2025 Thu Jul 10 2025 Fri Jul 11 2025 Sat Jul 12 2025":
+      - gridcell "Sun Jul 06 2025" [disabled]: "6"
+      - gridcell "Mon Jul 07 2025" [disabled]: "7"
+      - gridcell "Tue Jul 08 2025": "8"
+      - gridcell "Wed Jul 09 2025" [selected]: "9"
+      - gridcell "Thu Jul 10 2025" [selected]: "10"
+      - gridcell "Fri Jul 11 2025": "11"
+      - gridcell "Sat Jul 12 2025": "12"
+    - row "Sun Jul 13 2025 Mon Jul 14 2025 Tue Jul 15 2025 Wed Jul 16 2025 Thu Jul 17 2025 Fri Jul 18 2025 Sat Jul 19 2025":
+      - gridcell "Sun Jul 13 2025": "13"
+      - gridcell "Mon Jul 14 2025": "14"
+      - gridcell "Tue Jul 15 2025": "15"
+      - gridcell "Wed Jul 16 2025": "16"
+      - gridcell "Thu Jul 17 2025": "17"
+      - gridcell "Fri Jul 18 2025": "18"
+      - gridcell "Sat Jul 19 2025": "19"
+    - row "Sun Jul 20 2025 Mon Jul 21 2025 Tue Jul 22 2025 Wed Jul 23 2025 Thu Jul 24 2025 Fri Jul 25 2025 Sat Jul 26 2025":
+      - gridcell "Sun Jul 20 2025": "20"
+      - gridcell "Mon Jul 21 2025": "21"
+      - gridcell "Tue Jul 22 2025": "22"
+      - gridcell "Wed Jul 23 2025": "23"
+      - gridcell "Thu Jul 24 2025": "24"
+      - gridcell "Fri Jul 25 2025": "25"
+      - gridcell "Sat Jul 26 2025": "26"
+    - row "Sun Jul 27 2025 Mon Jul 28 2025 Tue Jul 29 2025 Wed Jul 30 2025 Thu Jul 31 2025 Fri Aug 01 2025 Sat Aug 02 2025":
+      - gridcell "Sun Jul 27 2025": "27"
+      - gridcell "Mon Jul 28 2025": "28"
+      - gridcell "Tue Jul 29 2025": "29"
+      - gridcell "Wed Jul 30 2025": "30"
+      - gridcell "Thu Jul 31 2025": "31"
+      - gridcell "Fri Aug 01 2025" [disabled]: "1"
+      - gridcell "Sat Aug 02 2025" [disabled]: "2"
+- grid:
+  - heading "August2025"
+  - rowgroup:
+    - row "Su Mo Tu We Th Fr Sa":
+      - columnheader "Su"
+      - columnheader "Mo"
+      - columnheader "Tu"
+      - columnheader "We"
+      - columnheader "Th"
+      - columnheader "Fr"
+      - columnheader "Sa"
+  - rowgroup:
+    - row "Sun Jul 27 2025 Mon Jul 28 2025 Tue Jul 29 2025 Wed Jul 30 2025 Thu Jul 31 2025 Fri Aug 01 2025 Sat Aug 02 2025":
+      - gridcell "Sun Jul 27 2025" [disabled]: "27"
+      - gridcell "Mon Jul 28 2025" [disabled]: "28"
+      - gridcell "Tue Jul 29 2025" [disabled]: "29"
+      - gridcell "Wed Jul 30 2025" [disabled]: "30"
+      - gridcell "Thu Jul 31 2025" [disabled]: "31"
+      - gridcell "Fri Aug 01 2025": "1"
+      - gridcell "Sat Aug 02 2025": "2"
+    - row "Sun Aug 03 2025 Mon Aug 04 2025 Tue Aug 05 2025 Wed Aug 06 2025 Thu Aug 07 2025 Fri Aug 08 2025 Sat Aug 09 2025":
+      - gridcell "Sun Aug 03 2025": "3"
+      - gridcell "Mon Aug 04 2025": "4"
+      - gridcell "Tue Aug 05 2025": "5"
+      - gridcell "Wed Aug 06 2025": "6"
+      - gridcell "Thu Aug 07 2025": "7"
+      - gridcell "Fri Aug 08 2025": "8"
+      - gridcell "Sat Aug 09 2025": "9"
+    - row "Sun Aug 10 2025 Mon Aug 11 2025 Tue Aug 12 2025 Wed Aug 13 2025 Thu Aug 14 2025 Fri Aug 15 2025 Sat Aug 16 2025":
+      - gridcell "Sun Aug 10 2025": "10"
+      - gridcell "Mon Aug 11 2025": "11"
+      - gridcell "Tue Aug 12 2025": "12"
+      - gridcell "Wed Aug 13 2025": "13"
+      - gridcell "Thu Aug 14 2025": "14"
+      - gridcell "Fri Aug 15 2025": "15"
+      - gridcell "Sat Aug 16 2025": "16"
+    - row "Sun Aug 17 2025 Mon Aug 18 2025 Tue Aug 19 2025 Wed Aug 20 2025 Thu Aug 21 2025 Fri Aug 22 2025 Sat Aug 23 2025":
+      - gridcell "Sun Aug 17 2025": "17"
+      - gridcell "Mon Aug 18 2025": "18"
+      - gridcell "Tue Aug 19 2025": "19"
+      - gridcell "Wed Aug 20 2025": "20"
+      - gridcell "Thu Aug 21 2025": "21"
+      - gridcell "Fri Aug 22 2025": "22"
+      - gridcell "Sat Aug 23 2025": "23"
+    - row "Sun Aug 24 2025 Mon Aug 25 2025 Tue Aug 26 2025 Wed Aug 27 2025 Thu Aug 28 2025 Fri Aug 29 2025 Sat Aug 30 2025":
+      - gridcell "Sun Aug 24 2025": "24"
+      - gridcell "Mon Aug 25 2025": "25"
+      - gridcell "Tue Aug 26 2025": "26"
+      - gridcell "Wed Aug 27 2025": "27"
+      - gridcell "Thu Aug 28 2025": "28"
+      - gridcell "Fri Aug 29 2025": "29"
+      - gridcell "Sat Aug 30 2025": "30"
+    - row "Sun Aug 31 2025 Mon Sep 01 2025 Tue Sep 02 2025 Wed Sep 03 2025 Thu Sep 04 2025 Fri Sep 05 2025 Sat Sep 06 2025":
+      - gridcell "Sun Aug 31 2025": "31"
+      - gridcell "Mon Sep 01 2025" [disabled]: "1"
+      - gridcell "Tue Sep 02 2025" [disabled]: "2"
+      - gridcell "Wed Sep 03 2025" [disabled]: "3"
+      - gridcell "Thu Sep 04 2025" [disabled]: "4"
+      - gridcell "Fri Sep 05 2025" [disabled]: "5"
+      - gridcell "Sat Sep 06 2025" [disabled]: "6"
+- text: Check-Out
+- textbox "Check-Out 10 Jul'25 Thursday"
+- paragraph: 10 Jul'25
+- paragraph: Thursday
+- text: Rooms & Guests
+- textbox "Rooms & Guests 1 Rooms 2Adults"
+- paragraph: 1 Rooms 2Adults
+- text: Price per Night
+- textbox "Price per Night ₹0-₹1500, ₹1500-₹2500,..."
+- paragraph: ₹0-₹1500, ₹1500-₹2500,...
+- text: "Trending Searches:"
+- list:
+  - listitem:
+    - paragraph: London, United Kingdom
+  - listitem:
+    - paragraph: Singapore, Singapore
+  - listitem:
+    - paragraph: Dubai, United Arab Emirates
+- paragraph:
+  - button "Search"
+- main:
+  - main:
+    - paragraph: INTRODUCING
+    - heading "MMT Luxe Selections" [level=3]
+    - list:
+      - listitem:
+        - img "Luxe properties in India"
+        - paragraph: Luxe properties in India
+        - paragraph: Explore by Luxury brands, themes & top picks
+      - listitem:
+        - img "Luxe Villas"
+        - paragraph: Luxe Villas
+        - paragraph: Premium Villas with Superlative Experience
+      - listitem:
+        - img "Luxe International"
+        - paragraph: Luxe International
+        - paragraph: Dubai, Maldives, Thailand & More
+    - img
+    - img "Ads by MMT"
+    - heading "Offers" [level=2]
+    - list:
+      - listitem: Hotels
+      - listitem: All Offers
+      - listitem: Flights
+      - listitem: Holidays
+      - listitem: Trains
+      - listitem: Cabs
+      - listitem: Bank Offers
+    - text: View All
+    - button "Previous"
+    - paragraph: T&C's Apply
+    - paragraph: "UNMISSABLE DEALS ON LUXE HOTELS:"
+    - paragraph: Up to 30% OFF* on Premium Hotels in India for Your Next Vacay.
+    - text: BOOK NOW
+    - paragraph: T&C's Apply
+    - paragraph: Book Your Stay @ Up to 25% OFF*
+    - paragraph: For Your Amarnath Yatra.
+    - text: BOOK NOW
+    - paragraph: T&C's Apply
+    - paragraph: Up to 30% OFF* for
+    - paragraph: on international flights, stays, holiday packages & more
+    - text: Book Now
+    - paragraph: T&C's Apply
+    - paragraph: "For Worry-free Travel: Grab Up to 30% OFF*"
+    - paragraph: + 3- & 6-months interest-free EMI on flights, stays and holiday packages!
+    - text: Book Now
+    - paragraph: T&C's Apply
+    - paragraph: "FOR BIG SAVINGS ON BLISSFUL VACATIONS:"
+    - paragraph: Book Hotel Sonar Bangla @ Up to 35% OFF*
+    - text: BOOK NOW
+    - paragraph: T&C's Apply
+    - paragraph: FLAT 15% OFF*
+    - paragraph: on International Hotels!
+    - text: Book Now
+    - button "Next"
+    - paragraph: Flagship Hotel Stores on MakeMyTrip
+    - list: Timbertales Luxury Resort Best Western Hotels & Resorts
+    - heading "Download App Now !" [level=3]
+    - paragraph: Use code WELCOMEMMT and get Up to Rs.5000 OFF on your first domestic hotel booking
+    - paragraph:
+      - img
+      - text: +91 —
+    - textbox "Enter Mobile number"
+    - button "GET APP LINK"
+    - img "QR Scanner"
+    - paragraph:
+      - paragraph: Goa
+    - paragraph:
+      - paragraph:
+        - link "Hotels,":
+          - /url: https://www.makemytrip.com/hotels/goa-hotels.html
+        - link "Budget Hotels,":
+          - /url: https://www.makemytrip.com/hotels/budget-hotels-in-goa.html
+        - link "Resorts,":
+          - /url: https://www.makemytrip.com/hotels/p-resorts-in-goa.html
+        - link "Best Hotels,":
+          - /url: https://www.makemytrip.com/hotels/five_star-hotels-goa.html
+        - link "North Goa,":
+          - /url: https://www.makemytrip.com/hotels/hotels-in-north_goa-goa.html
+        - link "Villas":
+          - /url: https://www.makemytrip.com/hotels/p-villas-in-goa.html
+    - paragraph:
+      - paragraph: Delhi
+    - paragraph:
+      - paragraph:
+        - link "Hotels,":
+          - /url: https://www.makemytrip.com/hotels/delhi-hotels.html
+        - link "Budget Hotels,":
+          - /url: https://www.makemytrip.com/hotels/budget-hotels-in-delhi.html
+        - link "Resorts,":
+          - /url: https://www.makemytrip.com/hotels/p-resorts-in-delhi.html
+        - link "Best Hotels,":
+          - /url: https://www.makemytrip.com/hotels/five_star-hotels-delhi.html
+        - link "Near IGI Airport":
+          - /url: https://www.makemytrip.com/hotels/hotels-in-near_igi_airport-delhi.html
+    - paragraph:
+      - paragraph: Bangalore
+    - paragraph:
+      - paragraph:
+        - link "Hotels,":
+          - /url: https://www.makemytrip.com/hotels/bangalore-hotels.html
+        - link "Budget Hotels,":
+          - /url: https://www.makemytrip.com/hotels/budget-hotels-in-bangalore.html
+        - link "Resorts,":
+          - /url: https://www.makemytrip.com/hotels/p-resorts-in-bangalore.html
+        - link "Near Airport,":
+          - /url: https://www.makemytrip.com/hotels/bangalore-hotels-near-kempegowda_airport.html
+        - link "Guhantara Resort":
+          - /url: https://www.makemytrip.com/hotels/guhantara_an_under_ground_resort-details-bangalore.html
+    - paragraph:
+      - paragraph: Ooty
+    - paragraph:
+      - paragraph:
+        - link "Hotels,":
+          - /url: https://www.makemytrip.com/hotels/ooty-hotels.html
+        - link "Resorts,":
+          - /url: https://www.makemytrip.com/hotels/p-resorts-in-ooty.html
+        - link "Cottges,":
+          - /url: https://www.makemytrip.com/hotels/p-cottages-in-ooty.html
+        - link "Budget Hotels,":
+          - /url: https://www.makemytrip.com/hotels/budget-hotels-in-ooty.html
+        - link "Homestay":
+          - /url: https://www.makemytrip.com/hotels/p-homestays-in-ooty.html
+    - paragraph:
+      - paragraph: Mumbai
+    - paragraph:
+      - paragraph:
+        - link "Hotels,":
+          - /url: https://www.makemytrip.com/hotels/mumbai-hotels.html
+        - link "Budget Hotels,":
+          - /url: https://www.makemytrip.com/hotels/budget-hotels-in-mumbai.html
+        - link "Resorts,":
+          - /url: https://www.makemytrip.com/hotels/p-resorts-in-mumbai.html
+        - link "Couple Hotels,":
+          - /url: https://www.makemytrip.com/hotels/couple-hotels-in-mumbai.html
+        - link "Near Mumbai Airport":
+          - /url: https://www.makemytrip.com/hotels/hotels-in-mumbai_airport-mumbai.html
+    - paragraph:
+      - paragraph: Shimla
+    - paragraph:
+      - paragraph:
+        - link "Hotels,":
+          - /url: https://www.makemytrip.com/hotels/shimla-hotels.html
+        - link "Budget Hotels,":
+          - /url: https://www.makemytrip.com/hotels/budget-hotels-in-shimla.html
+        - link "Best Hotels,":
+          - /url: https://www.makemytrip.com/hotels/five_star-hotels-shimla.html
+        - link "Resorts,":
+          - /url: https://www.makemytrip.com/hotels/p-resorts-in-shimla.html
+        - link "Near Mall Road":
+          - /url: https://www.makemytrip.com/hotels/hotels-in-mall_road-shimla.html
+    - paragraph:
+      - paragraph: Jaipur
+    - paragraph:
+      - paragraph:
+        - link "Hotels,":
+          - /url: https://www.makemytrip.com/hotels/jaipur-hotels.html
+        - link "Resorts,":
+          - /url: https://www.makemytrip.com/hotels/p-resorts-in-jaipur.html
+        - link "Budget Hotels,":
+          - /url: https://www.makemytrip.com/hotels/budget-hotels-in-jaipur.html
+        - link "Best Hotels,":
+          - /url: https://www.makemytrip.com/hotels/five_star-hotels-jaipur.html
+        - link "Near Railway Station":
+          - /url: https://www.makemytrip.com/hotels/jaipur-hotels-near-jaipur_railway_station.html
+    - paragraph:
+      - paragraph: Manali
+    - paragraph:
+      - paragraph:
+        - link "Hotels,":
+          - /url: https://www.makemytrip.com/hotels/manali-hotels.html
+        - link "Resorts,":
+          - /url: https://www.makemytrip.com/hotels/p-resorts-in-manali.html
+        - link "Budget Hotels,":
+          - /url: https://www.makemytrip.com/hotels/budget-hotels-in-manali.html
+        - link "Best Hotels,":
+          - /url: https://www.makemytrip.com/hotels/five_star-hotels-manali.html
+        - link "Near Mall Road":
+          - /url: https://www.makemytrip.com/hotels/hotels-in-mall_road-manali.html
+    - paragraph:
+      - paragraph: Dubai
+    - paragraph:
+      - paragraph:
+        - link "Hotels,":
+          - /url: https://www.makemytrip.com/hotels-international/united_arab_emirates/dubai-hotels/
+        - link "Budget Hotels,":
+          - /url: https://www.makemytrip.com/hotels-international/united_arab_emirates/dubai-hotels/budget-hotels.html
+        - link "5 Star Hotels,":
+          - /url: https://www.makemytrip.com/hotels-international/united_arab_emirates/dubai-hotels/five_star-hotels.html
+        - link "Apart-Hotels,":
+          - /url: https://www.makemytrip.com/hotels-international/united_arab_emirates/apartments-in-dubai-p/
+        - link "Homestays":
+          - /url: https://www.makemytrip.com/hotels-international/united_arab_emirates/homestays-in-dubai-p/
+    - paragraph:
+      - paragraph: Singapore
+    - paragraph:
+      - paragraph:
+        - link "Hotels,":
+          - /url: https://www.makemytrip.com/hotels-international/singapore/singapore-hotels/
+        - link "5 Star Hotels,":
+          - /url: https://www.makemytrip.com/hotels-international/singapore/singapore-hotels/five_star-hotels.html
+        - link "Little India,":
+          - /url: https://www.makemytrip.com/hotels-international/singapore/singapore-hotels/little_india-hotels.html
+        - link "Orchard Road,":
+          - /url: https://www.makemytrip.com/hotels-international/singapore/singapore-hotels/orchard_road-hotels.html
+        - link "Hostels,":
+          - /url: https://www.makemytrip.com/hotels-international/singapore/hostels-in-singapore-p/
+        - link "Hotels in Sentosa":
+          - /url: https://www.makemytrip.com/hotels-international/singapore/singapore-hotels/sentosa_island-hotels.html
+    - paragraph:
+      - paragraph: Bangkok
+    - paragraph:
+      - paragraph:
+        - link "Hotels,":
+          - /url: https://www.makemytrip.com/hotels-international/thailand/bangkok-hotels/
+        - link "3 Star Hotels,":
+          - /url: https://www.makemytrip.com/hotels-international/thailand/bangkok-hotels/three_star-hotels.html
+        - link "5 Star Hotels,":
+          - /url: https://www.makemytrip.com/hotels-international/thailand/bangkok-hotels/five_star-hotels.html
+        - link "Hostels,":
+          - /url: https://www.makemytrip.com/hotels-international/thailand/hostels-in-bangkok-p/
+        - link "Budget Hotels,":
+          - /url: https://www.makemytrip.com/hotels-international/thailand/bangkok-hotels/budget-hotels.html
+        - link "Hotels in Sukhumvit":
+          - /url: https://www.makemytrip.com/hotels-international//thailand/bangkok-hotels/sukhumvit-hotels.html
+    - paragraph:
+      - paragraph: Pattaya
+    - paragraph:
+      - paragraph:
+        - link "Hotels,":
+          - /url: https://www.makemytrip.com/hotels-international/thailand/pattaya-hotels/
+        - link "Budget Hotels,":
+          - /url: https://www.makemytrip.com/hotels-international/thailand/pattaya-hotels/budget-hotels.html
+        - link "5 Star Hotels,":
+          - /url: https://www.makemytrip.com/hotels-international/thailand/pattaya-hotels/five_star-hotels.html
+        - link "Resorts,":
+          - /url: https://www.makemytrip.com/hotels-international/thailand/resorts-in-pattaya-p/
+        - link "Central Pattaya,":
+          - /url: https://www.makemytrip.com/hotels-international/thailand/pattaya-hotels/central_pattaya-hotels.html
+        - link "Beachfront Properties":
+          - /url: https://www.makemytrip.com/hotels-international/thailand/pattaya-hotels/beachfront-hotels/
+    - paragraph:
+      - paragraph: Phuket
+    - paragraph:
+      - paragraph:
+        - link "Hotels,":
+          - /url: https://www.makemytrip.com/hotels-international/thailand/phuket-hotels/
+        - link "Resorts,":
+          - /url: https://www.makemytrip.com/hotels-international/thailand/resorts-in-phuket-p/
+        - link "Budget Hotels,":
+          - /url: https://www.makemytrip.com/hotels-international/thailand/phuket-hotels/budget-hotels.html
+        - link "Beachfront Properties":
+          - /url: https://www.makemytrip.com/hotels-international/thailand/phuket-hotels/beachfront-hotels/
+    - paragraph:
+      - paragraph: Bali
+    - paragraph:
+      - paragraph:
+        - link "Hotels,":
+          - /url: https://www.makemytrip.com/hotels-international/indonesia/bali-hotels/
+        - link "Resorts,":
+          - /url: https://www.makemytrip.com/hotels-international/indonesia/resorts-in-bali-p/
+        - link "5 Star Hotels,":
+          - /url: https://www.makemytrip.com/hotels-international/indonesia/bali-hotels/five_star-hotels.html
+        - link "Budget Hotels,":
+          - /url: https://www.makemytrip.com/hotels-international/indonesia/bali-hotels/budget-hotels.html
+        - link "Villas In Bali,":
+          - /url: https://www.makemytrip.com/hotels-international/indonesia/villas-in-bali-p/
+        - link "Beach-front Properties":
+          - /url: https://www.makemytrip.com/hotels-international/indonesia/bali-hotels/beachfront-hotels/
+    - paragraph:
+      - paragraph: Maldives
+    - paragraph:
+      - paragraph:
+        - link "Hotels,":
+          - /url: https://www.makemytrip.com/hotels-international/maldives/maldives-hotels/
+        - link "3 Star Hotels,":
+          - /url: https://www.makemytrip.com/hotels-international/maldives/maldives-hotels/three_star-hotels.html
+        - link "Resorts,":
+          - /url: https://www.makemytrip.com/hotels-international/maldives/resorts-in-maldives-p/
+        - link "5 Star Hotels,":
+          - /url: https://www.makemytrip.com/hotels-international/maldives/maldives-hotels/five_star-hotels.html
+        - link "4 Star Hotels,":
+          - /url: https://www.makemytrip.com/hotels-international/maldives/maldives-hotels/four_star-hotels.html
+        - link "Hotels in Male":
+          - /url: https://www.makemytrip.com/hotels-international/maldives/maldives-hotels/male_city-hotels.html
+    - paragraph:
+      - paragraph: Others
+    - paragraph:
+      - paragraph:
+        - link "Puri Hotels,":
+          - /url: https://www.makemytrip.com/hotels/puri-hotels.html
+        - link "OYO Delhi,":
+          - /url: https://www.makemytrip.com/hotels/oyo_rooms-delhi-chain.html
+        - link "Alleppey Houseboat,":
+          - /url: https://www.makemytrip.com/hotels/p-houseboats-in-alleppey.html
+        - link "Mahabaleshwar Hotels":
+          - /url: https://www.makemytrip.com/hotels/mahabaleshwar-hotels.html
+- contentinfo:
+  - paragraph: MakeMyTrip
+  - list:
+    - listitem: About Us,
+    - listitem: Investor Relations,
+    - listitem: Careers,
+    - listitem: Sustainability,
+    - listitem: MMT Foundation,
+    - listitem: Legal Notices,
+    - listitem: CSR Policy,
+    - listitem: myPartner - Travel Agent Portal,
+    - listitem: List your hotel,
+    - listitem: Partners- Redbus,
+    - listitem: Partners- Goibibo,
+    - listitem: Advertise with Us,
+    - listitem: Holiday-Franchise
+  - paragraph: About the Site
+  - list:
+    - listitem: Customer Support,
+    - listitem: MMT Black Loyalty Program,
+    - listitem: Payment Security,
+    - listitem: Privacy Policy,
+    - listitem: Cookie Policy,
+    - listitem: User Agreement,
+    - listitem: Terms of Service,
+    - listitem: Franchise Offices,
+    - listitem: Make A Payment,
+    - listitem: Work From Home,
+    - listitem: Escalation Channel
+  - paragraph: Product Offering
+  - list:
+    - listitem: Flights,
+    - listitem: International Flights,
+    - listitem: Charter Flights,
+    - listitem: Hotels,
+    - listitem: International Hotels,
+    - listitem: Homestays and Villas,
+    - listitem: Activities,
+    - listitem: Holidays In India,
+    - listitem: International Holidays,
+    - listitem: Book Hotels From UAE,
+    - listitem: myBiz for Corporate Travel,
+    - listitem: Book Online Cabs,
+    - listitem: Book Bus Tickets,
+    - listitem: Book Train Tickets,
+    - listitem: Cheap Tickets to India,
+    - listitem: Book Flights From US,
+    - listitem: Book Flights From UAE,
+    - listitem: Trip Planner,
+    - listitem: Forex Card,
+    - listitem: Buy Foreign Currency,
+    - listitem: Travel Insurance,
+    - listitem: Travel Insurance for Schengen Visa,
+    - listitem: Travel Insurance for Asia,
+    - listitem: Travel Insurance Thailand,
+    - listitem: Travel Insurance For UAE,
+    - listitem: Travel Insurance For Indonesia,
+    - listitem: Travel Insurance For Vietnam,
+    - listitem: Travel Insurance For Europe,
+    - listitem: Travel Insurance For USA,
+    - listitem: Travel Insurance for Singapore,
+    - listitem: Travel Insurance for Malaysia,
+    - listitem: Travel Insurance for Sri Lanka,
+    - listitem: Travel Insurance for United Kingdom,
+    - listitem: Travel Insurance for Canada,
+    - listitem: Gift Cards,
+    - listitem: Gift,
+    - listitem: Wedding Gift,
+    - listitem: Anniversary Gift,
+    - listitem: Birthday Gift,
+    - listitem: Diwali Gift,
+    - listitem: Valentines Gift,
+    - listitem: Farewell Gift,
+    - listitem: Christmas Gift,
+    - listitem: New Year Gift,
+    - listitem: Trip Ideas,
+    - listitem: Travel Blog,
+    - listitem: PNR Status,
+    - listitem: MakeMyTrip Advertising Solutions,
+    - listitem: One Way Cab,
+    - listitem: Travel Credit Card
+  - paragraph: Top Cities
+  - list:
+    - listitem: Hotels in Thailand,
+    - listitem: Hotels In Goa,
+    - listitem: Hotels In Mumbai,
+    - listitem: Hotels In Mahabaleshwar,
+    - listitem: Hotels In Matheran,
+    - listitem: Hotels In Lonavala,
+    - listitem: Hotels In Delhi,
+    - listitem: Hotels In Shimla,
+    - listitem: Hotels In Lansdowne,
+    - listitem: Hotels In Digha,
+    - listitem: Hotels In Puri,
+    - listitem: Hotels In Nainital,
+    - listitem: Hotels In Shirdi,
+    - listitem: Hotels In Bangalore,
+    - listitem: Hotels In Mussoorie,
+    - listitem: Hotels In Manali,
+    - listitem: Hotels Near Me,
+    - listitem: Cheap Hotels,
+    - listitem: Hotels In Jaipur,
+    - listitem: Hotels In Udaipur,
+    - listitem: Hotels In Pune,
+    - listitem: Hotels In Pondicherry,
+    - listitem: Hotels In Ooty,
+    - listitem: Hotels In Kodaikanal,
+    - listitem: Hotels In Darjeeling,
+    - listitem: Hotels In Chandigarh,
+    - listitem: Hotels In Mount abu,
+    - listitem: Hotels In Ahmedabad,
+    - listitem: Hotels In Kolkata,
+    - listitem: Hotels In Ranthambore,
+    - listitem: Jaisalmer Hotels,
+    - listitem: Mysore Hotels
+  - paragraph: States of India
+  - list:
+    - listitem: Hotels in Kerala,
+    - listitem: Hotels in Punjab,
+    - listitem: Hotels in Gujarat,
+    - listitem: Hotels in Andhra Pradesh,
+    - listitem: Hotels in Arunachal Pradesh,
+    - listitem: Hotels in Assam,
+    - listitem: Hotels in Bihar,
+    - listitem: Hotels in Chhattisgarh,
+    - listitem: Hotels in Haryana,
+    - listitem: Hotels in Himachal Pradesh,
+    - listitem: Hotels in Jharkhand,
+    - listitem: Hotels in Karnataka,
+    - listitem: Hotels in Ladakh,
+    - listitem: Hotels in Madhya Pradesh,
+    - listitem: Hotels in Maharashtra,
+    - listitem: Hotels in Manipur,
+    - listitem: Hotels in Meghalaya,
+    - listitem: Hotels in Mizoram,
+    - listitem: Hotels in Nagaland,
+    - listitem: Hotels in Odisha,
+    - listitem: Hotels in Telangana,
+    - listitem: Hotels in Tripura,
+    - listitem: Hotels in Rajasthan,
+    - listitem: Hotels in Tamil Nadu,
+    - listitem: Hotels in Uttar Pradesh,
+    - listitem: Hotels in Uttarakhand,
+    - listitem: Hotels in West Bengal
+  - paragraph: Top Properties
+  - list:
+    - listitem: W Goa,
+    - listitem: The Leela Goa,
+    - listitem: The Tamara Coorg,
+    - listitem: Evolve Back Coorg,
+    - listitem: Grand Hyatt Goa,
+    - listitem: Taj Lake Palace Udaipur,
+    - listitem: The Leela Palace Udaipur,
+    - listitem: Grand Hyatt Mumbai,
+    - listitem: Jw Marriott Chandigarh,
+    - listitem: Alila Diwa Goa,
+    - listitem: Evolve Back Hampi,
+    - listitem: Evolve Back Kabini,
+    - listitem: Hyatt Regency Mumbai,
+    - listitem: Le Meridien Delhi,
+    - listitem: Itc Grand Chola Chennai,
+    - listitem: Rambagh Palace Jaipur,
+    - listitem: Le Meridien Goa,
+    - listitem: Taj Lands End Mumbai,
+    - listitem: Jai Mahal Palace Jaipur,
+    - listitem: Vythiri Resort Wayanad,
+    - listitem: Red Earth Kabini,
+    - listitem: Taj Mahal Tower Mumbai,
+    - listitem: The Serai Bandipur,
+    - listitem: Wildflower Hall Shimla,
+    - listitem: Azaya Beach Resort Goa,
+    - listitem: Four Seasons Hotel Mumbai,
+    - listitem: Taj Fort Aguada Resort & Spa Goa,
+    - listitem: Itc Maratha Mumbai,
+    - listitem: Park Hyatt Chennai,
+    - listitem: Sea Shell Havelock,
+    - listitem: Spice Tree Munnar,
+    - listitem: ITC Grand Bharat,
+    - listitem: St Regis In Mumbai,
+    - listitem: Chennai Leela Palace,
+    - listitem: Hyatt Regency Delhi,
+    - listitem: Hyatt Grand Mumbai,
+    - listitem: Goa Radisson Blu,
+    - listitem: Fariyas Hotel,
+    - listitem: ITC Gardenia Bengaluru,
+    - listitem: Kumarakom Lake Resort,
+    - listitem: Taj Delhi Hotel,
+    - listitem: Surajkund Vivanta,
+    - listitem: JW Marriott Banglore,
+    - listitem: Alila Diwa Goa,
+    - listitem: Westin Goa,
+    - listitem: Trident Hotel Udaipur,
+    - listitem: Ritz Carlton Bangalore,
+    - listitem: Taj Hotel Lucknow,
+    - listitem: Leela In Kovalam,
+    - listitem: Trident Hotel Jaipur
+  - paragraph: Corporate Travel
+  - list:
+    - listitem: Business Travel,
+    - listitem: Corporate Travel,
+    - listitem: Corporate Travel Management,
+    - listitem: Corporate Travel Solution,
+    - listitem: Corporate Hotel Booking,
+    - listitem: Corporate Flight Booking,
+    - listitem: Expense Management,
+    - listitem: Corporate Expense Management,
+    - listitem: GST on Hotel Rooms,
+    - listitem: GST on Flight Tickets,
+    - listitem: Business Travel for SME,
+    - listitem: GST on International Flight Tickets,
+    - listitem: GST on Bus Tickets,
+    - listitem: GST on Train Tickets,
+    - listitem: T&E (Travel & Expense),
+    - listitem: myBiz - Best Business Travel Platform,
+    - listitem: GST Invoice for Corporate Travel,
+    - listitem: myBiz for Small Business,
+    - listitem: Free cancellation on International Flights
+  - paragraph: Top Homestay Cities
+  - list:
+    - listitem: Homestays In Chikmagalur,
+    - listitem: Homestays In Coorg,
+    - listitem: Homestays In Sakleshpur,
+    - listitem: Homestays In Goa,
+    - listitem: Homestays In Ooty,
+    - listitem: Homestays In Darjeeling,
+    - listitem: Homestays In Manali,
+    - listitem: Homestays In Munnar,
+    - listitem: Homestays In Wayanad,
+    - listitem: Homestays In Bengaluru,
+    - listitem: Homestays In Kasauli,
+    - listitem: Homestays In Kodaikanal,
+    - listitem: Homestays In Shimla,
+    - listitem: Homestays In Mysore,
+    - listitem: Homestays In Dandeli,
+    - listitem: Homestays In Dehradun,
+    - listitem: Homestays In Gokarna,
+    - listitem: Homestays In Mussoorie,
+    - listitem: Homestays In Nainital,
+    - listitem: Homestays In Rishikesh,
+    - listitem: Homestays In Vagamon,
+    - listitem: Homestays In Alibaug,
+    - listitem: Homestays In Kalimpong,
+    - listitem: Homestays In Mangalore,
+    - listitem: Homestays In Pondicherry,
+    - listitem: Homestays In Yercaud,
+    - listitem: Homestays In Coonoor,
+    - listitem: Homestays In Kabini,
+    - listitem: Homestays In Kasol,
+    - listitem: Homestays In Kurseong,
+    - listitem: Homestays In Mukteshwar
+  - paragraph: Trending Resort Cities
+  - list:
+    - listitem: Mahabaleshwar Resorts,
+    - listitem: Resorts In Agra,
+    - listitem: Resorts In Bhimtal,
+    - listitem: Resorts In Bordi,
+    - listitem: GraResorts In Br Hills,
+    - listitem: Resorts In Chikmagalur,
+    - listitem: Resorts In Cochin,
+    - listitem: Resorts In Darjeeling,
+    - listitem: Resorts In Dehradun,
+    - listitem: Resorts In Dharamshala,
+    - listitem: Resorts In Gorai,
+    - listitem: Resorts In Jaipur,
+    - listitem: Resorts In Jaisalmer,
+    - listitem: Resorts In Jodhpur,
+    - listitem: Resorts In Kanakapura,
+    - listitem: Resorts In Kollam,
+    - listitem: Resorts In Kotagiri,
+    - listitem: Resorts In Lucknow,
+    - listitem: Resorts In Madikeri,
+    - listitem: Resorts In Mahabaleshwar,
+    - listitem: Resorts In Masinagudi,
+    - listitem: Resorts In Matheran,
+    - listitem: Resorts In Mount Abu,
+    - listitem: Resorts In Mumbai,
+    - listitem: Resorts In Munnar,
+    - listitem: Resorts In Mussoorie,
+    - listitem: Resorts In Mysore,
+    - listitem: Resorts In Nainital,
+    - listitem: Resorts In Neemrana,
+    - listitem: Resorts In Kodaikanal
+  - article:
+    - heading "Q. How to book a hotel online with MakeMyTrip?" [level=2]
+    - text: A. Booking a hotel online is easy through MakeMyTrip. All you need to do first is to download our app on your Android or iOS device or simply use your computer. On the app, tap on the Hotels section on the top left corner and enter the details of the city, the area or the
+    - link "hotel":
+      - /url: https://www.makemytrip.com/hotels/
+    - text: . Fill out the check-in and check-out dates, along with the other details and tap Search. Use the Sort & Filter options so that you can book one as per your convenience. You can also choose hotels according to user reviews and ratings. The same follows on our site.
+    - heading "Q. How to find the cheapest hotel deals in any city?" [level=2]
+    - text: A. MakeMyTrip, being the best hotel-booking site in the country, offers several discounts on budget hotels as well. If you are looking for the
+    - link "cheapest hotels":
+      - /url: https://www.makemytrip.com/hotels/cheap-hotels.htm
+    - text: with amazing deals on the app, you can tap on Sort & Filter option and drag down the Price option from Rs.0 to Rs.500 or from Rs.0 to Rs.1000. Choose from the various amenities you would need during your stay including access to Wi-Fi, room service and in-house restaurants. The list will first show you the cheapest one on top. You can also sort by prices from Low to High, scroll down the list and find your preferred ones with great discounts.
+    - heading "Q. How to find the best hotels near me?" [level=2]
+    - text: A. If you are travelling to a city for the first time and are looking for hotels in the best areas, it is easy to find them on our website and our app. Let’s say, you are going to Goa and planning to book one near the most happening beaches. Once you have hit the Search option, you will find a list of all the hotels in
+    - link "North Goa":
+      - /url: https://www.makemytrip.com/hotels/hotels-in-north_goa-goa.html
+    - text: near the famed beach areas including Baga and Calangute. You can even find out which of the areas are ideal for couples and families. Similarly, if you are looking for booking
+    - link "hotels in Mumbai":
+      - /url: https://www.makemytrip.com/hotels/mumbai-hotels.html
+    - text: ", you can either book ones that are near the city’s major business districts, tourist areas and transportation hubs."
+    - heading "Q. Where can I find current deals and offers of MakeMyTrip?" [level=2]
+    - text: A. MakeMyTrip offers plenty of
+    - link "deals and offers":
+      - /url: https://www.makemytrip.com/daily-deals/hotels-coupon-offers/
+    - text: on luxury and budget hotels in India in all the cities, on a daily basis. However, these are available for a limited time and they are subject to change the next day. You can look for these deals while you are about to book the hotel after narrowing down your choices. On the app, you can check a property that has ‘MMT Exclusive Deal’ button below its discounted rate. By tapping on it, you would know how many offers are available.
+  - link:
+    - /url: https://www.instagram.com/makemytrip/
+  - link:
+    - /url: https://x.com/makemytrip
+  - link:
+    - /url: https://in.linkedin.com/company/makemytrip.com?open=outside
+  - link:
+    - /url: https://www.facebook.com/makemytrip/
+  - paragraph: © 2025 MAKEMYTRIP PVT. LTD.
+```
