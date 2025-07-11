@@ -1,2 +1,3 @@
-2025/07/11-14:24:59.372 3188 Creating DB D:\github\newproject\tmp-user-data\Default\Local Storage\leveldb since it was missing.
-2025/07/11-14:24:59.384 3188 Reusing MANIFEST D:\github\newproject\tmp-user-data\Default\Local Storage\leveldb/MANIFEST-000001
+2025/07/11-15:16:22.898 5418 Reusing MANIFEST D:\github\newproject\tmp-user-data\Default\Local Storage\leveldb/MANIFEST-000001
+2025/07/11-15:16:22.923 5418 Recovering log #3
+2025/07/11-15:16:22.925 5418 Reusing old log D:\github\newproject\tmp-user-data\Default\Local Storage\leveldb/000003.log 
