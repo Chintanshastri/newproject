@@ -1,4 +1,4 @@
-name: RONSPOT Smoke Test suite Bookings
+name: Testing Data Run
 on:
   
   workflow_dispatch:
