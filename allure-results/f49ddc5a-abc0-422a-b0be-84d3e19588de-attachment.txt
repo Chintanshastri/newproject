@@ -1,0 +1,2 @@
+Opened URL with persistent context
+Popup closed

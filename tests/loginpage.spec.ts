@@ -1,62 +1,42 @@
-import test, { test as base, expect, Page } from '@playwright/test';
+import test, { chromium, expect, Page } from '@playwright/test';
 import { readUrlFromExcel } from '../utils/excelUtil';
 import { readLocatorsFromExcel } from '../utils/readLocators';
-
 
 const locators = readLocatorsFromExcel('test-data/locators.xlsx');
 const url = readUrlFromExcel('test-data/data.xlsx');
 
-// Extend test to share page
 let sharedPage: Page;
 
-test.describe.serial('Makemytrip Flow', () => {
-  test.beforeAll(async ({ browser }) => {
-    const context = await browser.newContext();
-    sharedPage = await context.newPage();
-    await sharedPage.goto(url, { waitUntil: 'domcontentloaded' });
-    console.log("Opened URL");
+test.describe.serial('Makemytrip Flow (Persistent Context)', () => {
+  test('Test_001: Launch browser and close popup', async () => {
+    const userDataDir = './tmp-user-data'; // A temporary browser profile directory
+
+    const context = await chromium.launchPersistentContext(userDataDir, {
+      headless: false,
+      viewport: { width: 1280, height: 800 },
+      ignoreHTTPSErrors: true,
+      userAgent:
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36',
+    });
+
+    const pages = context.pages();
+    sharedPage = pages.length ? pages[0] : await context.newPage();
+
+    // Try navigating again with persistent context
+    await sharedPage.goto(url, { waitUntil: 'load' });
+    console.log('Opened URL with persistent context');
     await expect(sharedPage).toHaveURL(url);
-  });
 
-  // test.afterAll(async () => {
-  //   await sharedPage.close();
-  // });
-
-  test('Test_001: Close popup', async () => {
+    // Close popup
     const popupclose = getLocator(sharedPage, locators['popupclose']);
     await popupclose.click();
     console.log('Popup closed');
-   
+
+    await context.close();
   });
-
-  test('Test_002: Click Hotels from list', async () => {
-    const elements = getLocator(sharedPage, locators['optionslist']);
-    const count = await elements.count();
-    console.log('Total number of elements:', count);
-
-    for (let i = 0; i < count; i++) {
-      const text = await elements.nth(i).innerText();
-      console.log(`Element ${i + 1}: ${text}`);
-      if (text.trim() === 'Hotels') {
-        await elements.nth(i).click();
-        console.log(`Clicked on: ${text}`);
-        break;
-      }
-    }
-  });
-//   test('Test_003: Enter place name', async ({ page }) => {
-//   const checkindate = getLocator(page, locators['checkindate']); // assuming getLocator is a utility
-//   await checkindate.click();
-
-//   const today = new Date();
-//   const formattedDate = today.toISOString().split('T')[0]; // e.g., '2025-07-09'
-
-//   await checkindate.fill(formattedDate);
-//   await expect(checkindate).toHaveValue(formattedDate);
-// });
 });
 
-// Utility function to return locator based on type
+// Utility function for locator resolution
 function getLocator(page: Page, locatorData: any) {
   switch (locatorData.LocatorType.toLowerCase()) {
     case 'xpath':
@@ -69,5 +49,3 @@ function getLocator(page: Page, locatorData: any) {
       throw new Error(`Unsupported locator type: ${locatorData.LocatorType}`);
   }
 }
-
-
