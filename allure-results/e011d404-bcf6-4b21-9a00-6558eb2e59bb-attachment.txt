@@ -1,0 +1,5 @@
+Opened URL
+enter username
+enter password
+select button
+click button

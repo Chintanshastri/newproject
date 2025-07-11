@@ -1,6 +1,7 @@
 import { Page, Locator } from '@playwright/test';
 import { readUrlFromExcel } from '../../utils/excelUtil';
 import { readLocatorsFromExcel } from '../../utils/readLocators';
+import { stat } from 'fs';
 
 
 const locators = readLocatorsFromExcel('test-data/locators.xlsx');
@@ -20,15 +21,22 @@ export class LoginPage {
   async login() {
     const username = getLocator(this.page, locators['username']);
     await username.fill("chintanshastri");
+    console.log("enter username")
     await this.page.waitForTimeout(3000);
     const password = getLocator(this.page, locators['password']);
     await password.fill("Aa@12345678901");
+    console.log("enter password")
     await this.page.waitForTimeout(3000);
     const Rbuttom = getLocator(this.page, locators['Rbuttom']);
     await Rbuttom.click();
+    console.log("select button")
     const click = getLocator(this.page, locators['click']);
     await click.click();
+    console.log("click button")
     await this.page.waitForTimeout(3000);
+    const profileicon = getLocator(this.page, locators['profileicon']);
+    await profileicon.waitFor({ state: 'visible' });
+    
   }
 
   async NavigationActivation() {

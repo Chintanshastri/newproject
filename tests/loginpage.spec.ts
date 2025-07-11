@@ -5,7 +5,7 @@ import { LoginPage } from '../pages/login/enterdata';
 let loginPage: LoginPage
 let sharedPage: Page; // Declare sharedPage here
 
-test.describe.serial('Makemytrip Flow', () => {
+test.describe.serial('Ronspotlogin', () => {
   test.beforeEach(async ({ page }) => {
     loginPage = new LoginPage(page)
     await loginPage.NavigationActivation();
