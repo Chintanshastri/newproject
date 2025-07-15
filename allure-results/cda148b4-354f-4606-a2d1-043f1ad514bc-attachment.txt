@@ -1,0 +1,10 @@
+Opened URL
+chintanshastri
+Aa@12345678901
+enter username
+select button
+enter password
+click button
+click line print General settings
+✅ Tab 1 title matched: "App settings"
+✅ Tab 2 title matched: "Multi-zone settings"
