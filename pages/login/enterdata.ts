@@ -55,22 +55,31 @@ export class LoginPage {
     await this.page.goto(url, { waitUntil: 'domcontentloaded' });
   }
 
-  async verify() {
-     // Find the element and verify its text
-        await this.page.locator("//span[normalize-space()='Account']").click();
-        await this.page.locator("//a[normalize-space()='General settings']").click();
-        const text = await this.page.locator("//h2[normalize-space()='General settings']").textContent();
-        expect(text?.trim()).toBe('General settings');
-        console.log("click line print", text);
-        const label = this.page.locator("//div[@role='tabpanel']//p[1]");
-        await expect(label).toContainText('Email Support email address');
+  async clickonaccount() {
+    // Find the element and verify its text
+    await getLocator(this.page, locators['Accountoptionclick']).click();
+    await getLocator(this.page, locators['generalsettingsclick']).click();
+    const text = await getLocator(this.page, locators['verifytitlegeneralsettings']).textContent();
+    expect(text?.trim()).toBe('General settings');
+    console.log("click line print", text);
+
+
+    const supportemailaddresslabel = getLocator(this.page, locators['supportemailaddresslabel']);
+    await expect(supportemailaddresslabel).toContainText("Support email address *");
+
+    const cancelbutton = getLocator(this.page, locators['cancelbutton']);
+    await expect(cancelbutton).toContainText("Cancel");
+
+
+    const submitbutton = getLocator(this.page, locators['submitbutton']);
+    await expect(submitbutton).toContainText("Confirm");
 
   }
 
-  async account(){
+  async verifytabtitle() {
 
     const tabs = this.page.locator('//*[@id="pills-tab"]/*'); // Use actual class or attribute
-    await this.page.waitForTimeout(5000);
+    await this.page.waitForTimeout(7000);
     const expectedTabCount = 2;
     await expect(tabs).toHaveCount(expectedTabCount);
     const expectedTitles = ['App settings', 'Multi-zone settings'];
@@ -87,6 +96,15 @@ export class LoginPage {
       await expect(tabs.nth(i)).toHaveText(expectedTitles[i]);
     }
   }
+
+  async multizonesettings() {
+    await this.page.locator('//*[@id="pills-zonegroup-tab"]').click();
+    const groupzonesbutton = this.page.locator("//button[normalize-space()='Group zones']");
+    await expect(groupzonesbutton).toContainText("Group zones");
+    await groupzonesbutton.click();
+  }
+
+
 }
 
 // Utility function to return locator based on type

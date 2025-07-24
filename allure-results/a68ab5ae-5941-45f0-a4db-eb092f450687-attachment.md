@@ -1,0 +1,104 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - heading "General settings" [level=2]
+  - button "English English":
+    - img "English"
+    - text: English
+  - link "C":
+    - /url: "#"
+- link "main logo":
+  - /url: javascript:void(0);
+  - img "main logo"
+- img "menu-btn"
+- list:
+  - listitem:
+    - link "Insights":
+      - /url: "#"
+  - listitem:
+    - link "Bookings":
+      - /url: "#"
+  - listitem:
+    - link "Spaces":
+      - /url: "#"
+  - listitem:
+    - link "Users":
+      - /url: "#"
+  - listitem:
+    - link "Account":
+      - /url: "#"
+    - list:
+      - listitem:
+        - link "General settings":
+          - /url: https://staging.ronspot.ie/admin/Company_settings
+      - listitem:
+        - link "Email templates":
+          - /url: https://staging.ronspot.ie/admin/template
+      - listitem:
+        - link "Notification templates":
+          - /url: https://staging.ronspot.ie/admin/template/notification_templates
+      - listitem:
+        - link "Admin alerts":
+          - /url: https://staging.ronspot.ie/admin/Admin_alerts
+      - listitem:
+        - link "Pre-booking questions":
+          - /url: https://staging.ronspot.ie/admin/template/message
+      - listitem:
+        - link "Post-booking questions":
+          - /url: https://staging.ronspot.ie/admin/questions
+      - listitem:
+        - link "Integrations":
+          - /url: https://staging.ronspot.ie/admin/Act365/integrations
+- paragraph: Switch to the new menu
+- switch [checked]
+- paragraph: Your free trial has ended. Get in touch to discover your next steps!
+- link "Book a demo":
+  - /url: https://ronspotflexwork.com/book-a-demo/
+- link "Ask a question":
+  - /url: https://ronspotflexwork.com/contact-us/
+- tablist:
+  - tab "App settings"
+  - tab "Multi-zone settings" [selected]
+- tabpanel "Multi-zone settings":
+  - button "icon Group zones":
+    - img "icon"
+    - text: Group zones
+  - treegrid:
+    - rowgroup:
+      - row "No. Group name Zone type Grouped zones Actions":
+        - columnheader "No."
+        - columnheader "Group name"
+        - columnheader "Zone type"
+        - columnheader "Grouped zones"
+        - columnheader "Actions"
+    - rowgroup:
+      - row "Press SPACE to select this row.":
+        - gridcell "1"
+        - gridcell "aa"
+        - gridcell "Parking"
+        - gridcell "Parking_AH_Grid"
+        - gridcell:
+          - link "Edit":
+            - /url: javascript:void(0);
+            - img
+          - link "Delete":
+            - /url: javascript:void(0);
+            - img
+- dialog "Group zones":
+  - heading "Group zones" [level=2]
+  - button "Close":
+    - img
+  - text: Group name *
+  - textbox "Please enter a group name"
+  - text: Zone type
+  - combobox "Parking":
+    - textbox "Parking"
+  - img
+  - text: Select zones to group *
+  - button "None selected"
+  - text: Limit employees to one booking per day
+  - switch [checked]
+  - button "Cancel"
+  - button "Confirm"
+```

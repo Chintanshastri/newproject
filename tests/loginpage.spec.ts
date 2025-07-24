@@ -15,8 +15,9 @@ test.describe.serial('Ronspot login', () => {
 
   test('Test_001: Close popup', async ({ page }) => {
     await loginPage.login();
-    await loginPage.verify();
-    await loginPage.account();
+    await loginPage.clickonaccount();
+    await loginPage.verifytabtitle();
+    await loginPage.multizonesettings();
   });
 
 });
